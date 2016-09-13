@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GameOfLifeTest
 //
-//  Created by Sami Ali on 9/12/16.
+//  Created by Sami Ali on 12/12/16.
 //  Copyright © 2016 com.thracecodeinc. All rights reserved.
 //
 

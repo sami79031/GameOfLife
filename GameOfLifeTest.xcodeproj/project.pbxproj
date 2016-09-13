@@ -16,6 +16,7 @@
 		3B35E88C1D8696DB00FFF3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B35E88A1D8696DB00FFF3BD /* LaunchScreen.storyboard */; };
 		3B35E8971D8696DB00FFF3BD /* GameOfLifeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35E8961D8696DB00FFF3BD /* GameOfLifeTestTests.swift */; };
 		3B35E8A21D8696DB00FFF3BD /* GameOfLifeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35E8A11D8696DB00FFF3BD /* GameOfLifeTestUITests.swift */; };
+		3B35E8B01D8697D400FFF3BD /* CellM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35E8AF1D8697D400FFF3BD /* CellM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3B35E89D1D8696DB00FFF3BD /* GameOfLifeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B35E8A11D8696DB00FFF3BD /* GameOfLifeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeTestUITests.swift; sourceTree = "<group>"; };
 		3B35E8A31D8696DB00FFF3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B35E8AF1D8697D400FFF3BD /* CellM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				3B35E87D1D8696DB00FFF3BD /* AppDelegate.swift */,
 				3B35E87F1D8696DB00FFF3BD /* GameScene.sks */,
+				3B35E8AF1D8697D400FFF3BD /* CellM.swift */,
 				3B35E8811D8696DB00FFF3BD /* GameScene.swift */,
 				3B35E8831D8696DB00FFF3BD /* GameViewController.swift */,
 				3B35E8851D8696DB00FFF3BD /* Main.storyboard */,
@@ -266,6 +269,7 @@
 				3B35E8821D8696DB00FFF3BD /* GameScene.swift in Sources */,
 				3B35E8841D8696DB00FFF3BD /* GameViewController.swift in Sources */,
 				3B35E87E1D8696DB00FFF3BD /* AppDelegate.swift in Sources */,
+				3B35E8B01D8697D400FFF3BD /* CellM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
