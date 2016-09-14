@@ -19,7 +19,7 @@ class CellM {
     var height = 0
     var cells: [Bool] = []
     var nextGenerationCells: [Bool] = []
-    var generations = 0
+    
     
     init(width: Int, height: Int) {
         self.width  = width
@@ -46,7 +46,7 @@ class CellM {
         }
         
         swap(&nextGenerationCells, &cells)
-        generations += 1
+
     }
     
     
@@ -86,11 +86,10 @@ class CellM {
     }
     
     func initCells() {
-        cells = emptyGrid()
         cells = emptyGrid().map {
             _ in randomBool()
         }
-        nextGenerationCells = emptyGrid()
+        nextGenerationCells = cells
     }
     
 }

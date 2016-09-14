@@ -52,12 +52,7 @@ class GameScene: SKScene {
         cellM.nextGeneration()
         
         for i in 0 ..< self.cellM.cells.count {
-            if cellM.alive(i) == true{
-                rects[i].color = white
-            }else{
-                rects[i].color = black
-            }
-            
+            rects[i].color = cellM.alive(i) ? white : black
         }
     }
 }
